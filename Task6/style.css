@@ -1,0 +1,13 @@
+.test {
+  margin: 10vh auto;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border: 1px solid black;
+}
+.hero {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+}

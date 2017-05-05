@@ -1,0 +1,19 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+.test {
+  margin: 10vh auto;
+  width: 80%;
+  height: 80%;
+  background-color: lime;
+  position: relative;
+}
+.image {
+  width: 5%;
+  position: absolute;
+}
