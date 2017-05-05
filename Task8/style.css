@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+}
+.site {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  background-color: lime;
+}
+.test {
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  background-color: #000;
+  left: -200px;
+}
