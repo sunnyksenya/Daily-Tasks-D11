@@ -1,0 +1,99 @@
+.waterworld {
+  width: 560px;
+  height: 447px;
+  background-color: #80cdc6;
+}
+#clouds {
+  position: absolute;
+  left: 245px;
+  top: 30px;
+  z-index: 1;
+  width: 40%;
+  animation-name: clouds;
+  animation-duration: 20s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+@keyframes clouds {
+  0% {left:245px; top:30px;}
+  30% {left:50px; top:80px;}
+  60% {left:100px; top:150px;}
+  100% {left:245px; top:30px;}
+}
+#water_wo_animation {
+  position: absolute;
+  top: 410px;
+  z-index: 4;
+  width: 560px;
+}
+#water {
+  position: absolute;
+  top: 410px;
+  z-index: 4;
+  width: 560px;
+  animation-name: water;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+@keyframes water {
+  0% {top:410px;}
+  50% {top:405px;}
+  100% {top:410px;}
+}
+#wooden-ship {
+  position: absolute;
+  top: 335px;
+  left: 25px;
+  z-index: 5;
+  width: 10%;
+  animation-name: wooden-ship;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+@keyframes wooden-ship {
+  0% {top:335px; left:25px;}
+  50% {top:335px; left:450px;}
+  100% {top:335px; left:25px;}
+}
+#world {
+  position: absolute;
+  top: 110px;
+  z-index: 3;
+  width: 560px;
+}
+#sun-small {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  z-index: 2;
+  width: 10%;
+  animation-name: sun-small;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+@keyframes sun-small {
+  0% {top:100px; left:50px;}
+  20% {top:300px; left:150px;}
+  40% {top:300px; left:300px;}
+  60% {top:100px; left:450px;}
+  80% {top:50px; left:150px;}
+  100% {top:100px; left:50px;}
+}
+#comet {
+  position: absolute;
+  top: 50px;
+  left: 140px;
+  z-index: 6;
+  width: 10%;
+  animation-name: comet;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+@keyframes comet {
+  0% {top:50px; left:140px;}
+  100% {top:300px; left:450px;}
+}

@@ -1,0 +1,63 @@
+.foto {
+  display: inline;
+  font-size: 0px;
+  height: 430px;
+  width: 344px;
+}
+#image {
+  position: relative;
+  z-index: 2;
+}
+.foto::after {
+  content: "";
+  height: 430px;
+  width: 217px;
+  background: url('images/right.png');
+  position: absolute;
+  left: 217px;
+  z-index: 1;
+}
+.foto::before {
+  content: "";
+  height: 430px;
+  width: 217px;
+  background: url('images/left.png');
+  position: absolute;
+  top: 13px;
+  z-index: 1;
+}
+.foto_second {
+  display: inline;
+  font-size: 0px;
+  height: 430px;
+  width: 344px;
+}
+#image_second {
+  height: 430px;
+  width: 600px;
+  position: relative;
+  z-index: 2;
+}
+.foto_second::after {
+  content: "";
+  height: 60px;
+  width: 300px;
+  z-index: 1;
+  background-image: url(images/shadow-right.png);
+  position: absolute;
+  top: 350px;
+  right: 550px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.foto_second::before {
+  content: "";
+  height: 60px;
+  width: 300px;
+  z-index: 1;
+  background-image: url(images/shadow-left.png);
+  position: absolute;
+  top: 350px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}

@@ -1,0 +1,30 @@
+#square {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: lime;
+  animation-name: ppp;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes ppp {
+  0% {top:0;left:0;}
+  30% {
+    top:30px;
+    left:50px;
+  }
+  60% {
+    top:800px;
+    left:350px;
+  }
+  80% {
+    top:600px;
+    left:800px;
+  }
+  100% {
+    top:0;
+    left:0;
+  }
+}
